@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec ts-node $INIT_CWD",
-    "dev": "nodemon --exec ts-node $INIT_CWD"
+    "start": "nodemon $INIT_CWD",
+    "dev": "nodemon $INIT_CWD"
   },
   "author": "",
   "license": "ISC",
