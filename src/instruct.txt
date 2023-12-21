@@ -1,0 +1,1 @@
+What does this problem seek to teach? Do not show me the answer nor the hints. Just what can I gain from solving this problem? Like, in DP, memoization let's me know that space is cheaper than operation or caching is one way to optimization. Like so, what lesson should this problem teach me?
