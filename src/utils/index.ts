@@ -17,3 +17,11 @@ export function measurePerformance<Args extends any[], ReturnType>(
     return result;
   };
 }
+
+export const maxFlat = (arr: any[]) =>
+  JSON.parse(
+    `[${JSON.stringify(arr)
+      .replace(/[\[\]]/g, "")
+      .replace(/,$/, "")
+      .trim()}]`
+  );
